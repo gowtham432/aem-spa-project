@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aisearchspa" mode="merge"/>
+    <filter root="/content/aisearchspa" mode="merge"/>
+    <filter root="/content/dam/aisearchspa" mode="merge">
+        <exclude pattern="/content/dam/aisearchspa(/.*)?"/>
+        <include pattern="/content/dam/aisearchspa/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/aisearchspa/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/aisearchspa" mode="merge"/>
+</workspaceFilter>
