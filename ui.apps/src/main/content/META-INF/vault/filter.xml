@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workspaceFilter version="1.0">
-    <filter root="/apps/myspaproject/clientlibs"/>
-    <filter root="/apps/myspaproject/components"/>
-    <filter root="/apps/myspaproject/i18n"/>
-</workspaceFilter>
