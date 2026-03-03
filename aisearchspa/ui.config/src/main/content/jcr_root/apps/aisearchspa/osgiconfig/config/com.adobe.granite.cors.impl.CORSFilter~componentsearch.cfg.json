@@ -1,0 +1,23 @@
+{
+  "alloworigin": [
+    "http://localhost:3000"
+  ],
+  "alloworiginregexp": [],
+  "allowedpaths": [
+    "/bin/api/.*"
+  ],
+  "supportedheaders": [
+    "Content-Type",
+    "Authorization",
+    "X-Requested-With",
+    "Accept",
+    "Origin"
+  ],
+  "supportedmethods": [
+    "GET",
+    "POST",
+    "OPTIONS"
+  ],
+  "supportscredentials": false,
+  "maxage": 1800
+}

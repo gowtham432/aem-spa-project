@@ -1,0 +1,9 @@
+{
+  "scripts": [
+    "create service user aisearch-read-service with path system/aisearch",
+    "set ACL for aisearch-read-service",
+    "  allow jcr:read on /content",
+    "  allow jcr:read on /content/dam",
+    "end"
+  ]
+}

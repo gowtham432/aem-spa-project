@@ -1,0 +1,7 @@
+{
+  "scheduler.expression": "0 0 2 * * ?",
+  "root.paths": [
+    "/content/aisearchspa/us/en"
+  ],
+  "enabled": true
+}

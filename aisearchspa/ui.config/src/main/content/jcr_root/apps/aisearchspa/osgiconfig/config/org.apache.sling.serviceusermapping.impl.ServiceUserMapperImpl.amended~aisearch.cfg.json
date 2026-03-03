@@ -1,0 +1,5 @@
+{
+  "user.mapping": [
+    "aisearchspa.core:readService=aisearch-read-service"
+  ]
+}

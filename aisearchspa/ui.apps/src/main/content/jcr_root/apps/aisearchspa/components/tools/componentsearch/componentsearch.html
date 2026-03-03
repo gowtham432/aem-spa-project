@@ -1,0 +1,15 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"/>
+
+<sly data-sly-call="${clientLib.js @ categories='aisearchspa.componentsearch'}"/>
+
+<div style="padding:40px; font-family: Arial;">
+    <h1>AEM Page Search</h1>
+    <p style="color:#666; margin-top:-10px;">Search for pages using natural language. For example: "Find pages with accordion component" or "Show pages that have both image and teaser"</p>
+
+    <input type="text" id="searchInput" placeholder="e.g. Find all pages with image component..." style="width:400px; padding:8px;" />
+    <button id="searchBtn" style="padding:8px 12px;">Search</button>
+
+    <hr/>
+
+    <div id="results"></div>
+</div>

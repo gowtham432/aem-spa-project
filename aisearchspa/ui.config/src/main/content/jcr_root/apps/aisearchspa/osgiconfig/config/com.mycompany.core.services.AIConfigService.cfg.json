@@ -1,0 +1,5 @@
+{
+  "openAIApiKey": "your-openai-api-key",
+  "pineconeApiKey": "your-pinecone-api-key",
+  "pineconeIndexName": "aem-search"  
+}
